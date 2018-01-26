@@ -1,52 +1,113 @@
 package com.example.vishnumurthy.vishnufinalproject2;
 
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.gson.Gson;
 
+public class MainActivity extends AppCompatActivity implements EditFragment.FragmentEditInterface, RecycleFragment.FragmentRecycleInterface{
+    private final static String TAG = "MAIN ACTIVITY";
+
+    private SectionsPagerAdapter mSectionsPagerAdapter;
+    private ViewPager mViewPager;
+    private int counter = 0;
+    //static final String INTERNAL_STORAGE_FILE = "db.json";
+    private Fragment mActiveFragment;
+    private EditFragment mEditFragment;
+    private RecycleFragment mRecycleFragment;
+
+    static final int REQUEST_IMAGE_CAPTURE = 1;
+    static final int REQUEST_SELECT_CONTACT = 2;
+    private Gson gson;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        // Set up the ViewPager with the sections adapter.
+        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        Log.i(TAG, mSectionsPagerAdapter+"");
+        mViewPager = (ViewPager) findViewById(R.id.container);
+        mViewPager.setAdapter(mSectionsPagerAdapter);
+        Log.i("Here", "here");
+    }
+    public void onClick(View view) {
+        counter++;
+        if(counter==2) {counter = 0;}
+        switch(counter)
+        {
+            case 0:
+                setFragmentRecycleActive();
+            case 1:
+                setFragmentEditActive(null);
+        }
+    }
+    @Override
+    public void setFragmentEditActive(PictureText pt) {
+
+        Log.i("TAG", pt.toString());
+        if (mEditFragment==null)
+        {
+            Log.i("TAGG", "THIS IS NULL");
+        }
+        mEditFragment.setPicture(pt);
+        mViewPager.setCurrentItem(1);
+        mActiveFragment=mEditFragment;
+
+    }
+
+
+
+    @Override
+    public void switchFragmentRecycle() {
+        Log.i("TAG", "switchFragRecy");
+        setFragmentRecycleActive();
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+    public void setFragmentRecycleActive() {
+        Log.i("TAG", "setFragRecyAct");
+        mViewPager.setCurrentItem(0);
+        mActiveFragment = mRecycleFragment;
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+    public void switchToEditFragment(PictureText pt) {
+        setFragmentEditActive(pt);
+    }
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+
+    public class SectionsPagerAdapter extends FragmentPagerAdapter {
+
+        public SectionsPagerAdapter(FragmentManager fm) {
+            super(fm);
         }
 
-        return super.onOptionsItemSelected(item);
+        @Override
+        public Fragment getItem(int position) {
+            switch (position) {
+                case 0:
+                    mRecycleFragment =  RecycleFragment.newInstance();
+                    return mRecycleFragment;
+
+                case 1 :
+                    mEditFragment =  EditFragment.newInstance();
+                    return mEditFragment;
+
+                default :
+                    return null;
+            }
+        }
+
+        @Override
+        public int getCount() {
+            return 2;
+        }
     }
 }

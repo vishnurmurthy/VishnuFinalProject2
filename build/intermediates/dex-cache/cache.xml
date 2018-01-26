@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_e860d8f9e8cd8ce4311c87353ed27e1839175e8b.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_151722af80d64dfbfb69398d6aa2fe8a0e5f36e0.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_f97bd69ff061f3b2d94917406f324d1fa5c5439f.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_1e9f404c8e70f400ec8dacb3f2b4221323bca44e.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_221e29836a775ffcccd5a7d8deb28e9a0fa9d436.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_2b1253f874784ccafca40337862b259ac935d8b5.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_af33fca4a546f0ecc58ef18fe9efa3d792039e2d.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_78b87267a9e43365f38b36aa6037f2ff1bdb2e4f.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0b89ca1bd672796c677e3c9e4a1153e94389814e.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_cf3e29b334451a992fb582df6aef0daa805027fa.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1b0dfe8800c5295721f842a072d2cb93fa66e98d.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_7b388e5b348ee1921d76a0969e2331933583401e.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_5cd8a6dc4f0a28c8ca1b98e5e55f3494e5af4aeb.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_37581ec58af460e65fe9d1a218edd594931dc52c.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_86bfa2bdb8a4e8fced7f87777cd328b108cddfad.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_67f201fd995a2af10132264d6f92676aa05d928d.jar" />
+    </item>
+    <item
+        jar="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="27.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/vishnumurthy/Documents/GitHub/VishnuFinalProject2/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_c2d036e6fe449a1559275117beae3404c4c1d2e2.jar" />
+    </item>
+
+</items>
